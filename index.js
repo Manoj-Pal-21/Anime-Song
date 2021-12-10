@@ -1,13 +1,14 @@
 var noOfDrumButton = document.querySelectorAll(".drum").length;
 let soundObj = {
-    w: "sounds/tom-1.mp3",
-    a: "sounds/tom-2.mp3",
-    s: "sounds/tom-3.mp3",
-    d: "sounds/tom-4.mp3",
-    j: "sounds/crash.mp3",
-    k: "sounds/kick-bass.mp3",
-    l: "sounds/snare.mp3",
+    DemonSlayer: "sounds/Demonslayer.mp3",
+    Naruto: "sounds/Naruto.mp3",
+    AttackonTitan: "sounds/Attackontitan.mp3",
+    DeathNote: "sounds/Deathnote.mp3",
+    DragonBall: "sounds/Dragonballz.mp3",
+    Haikyu: "sounds/Haikyu.mp3",
+    Asilentvoice: "sounds/Asilentvoice.mp3",
 };
+let audio = "";
 
 for (var i = 0; i < noOfDrumButton; i++) {
 
@@ -24,9 +25,26 @@ for (var i = 0; i < noOfDrumButton; i++) {
         //     audio.play();
         // }
 
-        audio = new Audio(soundObj[this.classList[0]]);
-        audio.play();
-
+        // audio = new Audio(soundObj[this.innerHTML[0]]);
+        // audio.play();
+        if(audio) {
+            audio.pause();
+        };
+        var buttonClick = this.innerHTML;
+        playSound(buttonClick);
     }
 }
 
+document.addEventListener("keypress", function (event) {
+    if(audio) {
+        audio.pause();
+    };
+    playSound(event.key);
+    // console.log(event);
+    // alert("key pressed...");
+});
+
+function playSound(key) {
+    audio = new Audio(soundObj[key]);
+    audio.play();
+}

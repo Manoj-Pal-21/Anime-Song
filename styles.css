@@ -12,37 +12,52 @@ h1 {
 }
 
 footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+  /* color: #DBEDF3; */
+  /* font-family: sans-serif; */
+  font-family: 'Arvo', cursive;
+  color:crimson;
 }
 
 .w {
-  background-image: url("images/tom1.png");
+  background-image: url("images/DemonSlayer.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .a {
-  background-image: url("images/tom2.png");
+  background-image: url("images/Naruto.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .s {
-  background-image: url("images/tom3.png");
-
+  background-image: url("images/Attackontitan.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .d {
-  background-image: url("images/tom4.png");
+  background-image: url("images/Deathnote.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .j {
-  background-image: url("images/crash.png");
+  background-image: url("images/Dragonballz.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .k {
-  background-image: url("images/kick.png");
+  background-image: url("images/Haikyu.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .l {
-  background-image: url("images/snare.png");
+  background-image: url("images/Asilentvoice.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .set {
@@ -66,12 +81,12 @@ footer {
 .drum {
   outline: none;
   border: 10px solid #404B69;
-  font-size: 5rem;
+  font-size: 15px;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: blue;
+  text-shadow: 1px 0 #90c6d8;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -79,4 +94,13 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+
+@media screen and (max-width: 400px) {
+
+  h1 {
+    font-size: xx-large;
+  };
+
 }
