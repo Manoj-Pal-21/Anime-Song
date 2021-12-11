@@ -1,13 +1,12 @@
 body {
   text-align: center;
-  background-color: #231885;
-}
+background: linear-gradient(to bottom, #0099ff 18%, #000099 100%);}
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #ffffff;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #10f336;
+  text-shadow: 3px 0 #000099;
 
 }
 
@@ -15,8 +14,8 @@ footer {
   /* color: #DBEDF3; */
   /* font-family: sans-serif; */
   font-family: 'Arvo', cursive;
-  color: rgb(234, 234, 240);
-  text-shadow: 1px 0 #4dcf11;
+  color: rgb(109, 109, 204);
+  /* text-shadow: 1px 0 #e7e7ec; */
   font-size: 20px;
 }
 
@@ -82,11 +81,11 @@ footer {
 
 .drum {
   outline: none;
-  border: 4px solid #5ef884;
+  border: 7px solid #58bcff;
   font-size: 15px;
   font-family: 'Arvo', cursive;
-  color: rgb(234, 234, 240);
-  text-shadow: 1px 0 #4dcf11;
+  color: rgb(254, 254, 255);
+  /* text-shadow: 1px 0 #4dcf11; */
   border-radius: 20px;
   display: inline-block;
   width: 150px;
