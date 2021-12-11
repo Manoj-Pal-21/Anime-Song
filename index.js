@@ -50,12 +50,12 @@ function playSound(key) {
     audio.play();
 }
 
-// function buttonAnimation(currentkey) {
-//     activeButton = document.querySelector("." + currentkey);
-//     activeButton.classList.add("pressed");
-//     activeButton.classList.remove("pressed");
-// }
+function buttonAnimation(currentkey) {
+    activeButton = document.querySelector("." + currentkey);
+    activeButton.classList.add("pressed");
+    
+    setTimeout(function(){
+        activeButton.classList.remove("pressed");
+    },100);
+}
 
-// setTimeout(function(){
-//     activeButton.classList.remove("pressed");
-// }, 1000);
