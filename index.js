@@ -32,6 +32,7 @@ for (var i = 0; i < noOfDrumButton; i++) {
         };
         var buttonClick = this.innerHTML;
         playSound(buttonClick);
+        buttonAnimation(buttonClick);
     }
 }
 
@@ -48,3 +49,13 @@ function playSound(key) {
     audio = new Audio(soundObj[key]);
     audio.play();
 }
+
+// function buttonAnimation(currentkey) {
+//     activeButton = document.querySelector("." + currentkey);
+//     activeButton.classList.add("pressed");
+//     activeButton.classList.remove("pressed");
+// }
+
+// setTimeout(function(){
+//     activeButton.classList.remove("pressed");
+// }, 1000);

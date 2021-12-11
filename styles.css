@@ -1,13 +1,13 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #231885;
 }
 
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #10f336;
 
 }
 
@@ -15,46 +15,48 @@ footer {
   /* color: #DBEDF3; */
   /* font-family: sans-serif; */
   font-family: 'Arvo', cursive;
-  color:crimson;
+  color: rgb(234, 234, 240);
+  text-shadow: 1px 0 #4dcf11;
+  font-size: 20px;
 }
 
-.w {
+.DemonSlayer {
   background-image: url("images/DemonSlayer.png");
   background-position: center;
   background-size: cover;
 }
 
-.a {
+.Naruto {
   background-image: url("images/Naruto.png");
   background-position: center;
   background-size: cover;
 }
 
-.s {
+.AttackonTitan {
   background-image: url("images/Attackontitan.png");
   background-position: center;
   background-size: cover;
 }
 
-.d {
+.DeathNote {
   background-image: url("images/Deathnote.png");
   background-position: center;
   background-size: cover;
 }
 
-.j {
+.DragonBall {
   background-image: url("images/Dragonballz.png");
   background-position: center;
   background-size: cover;
 }
 
-.k {
+.Haikyu {
   background-image: url("images/Haikyu.png");
   background-position: center;
   background-size: cover;
 }
 
-.l {
+.Asilentvoice {
   background-image: url("images/Asilentvoice.png");
   background-position: center;
   background-size: cover;
@@ -70,7 +72,7 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #e6f4f8;
   opacity: 0.5;
 }
 
@@ -80,19 +82,17 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 4px solid #5ef884;
   font-size: 15px;
   font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: blue;
-  text-shadow: 1px 0 #90c6d8;
-  border-radius: 15px;
+  color: rgb(234, 234, 240);
+  text-shadow: 1px 0 #4dcf11;
+  border-radius: 20px;
   display: inline-block;
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 10px;
+  margin: 12px;
   background-color: white;
 }
 
